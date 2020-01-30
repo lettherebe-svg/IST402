@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sample Web Page</title>
+    <meta charset="utf-8">
+
+    <!-- CSS -->
+    <style type="text/css">
+        img {
+            max-width:300px;
+            max-height:240px;
+        }
+
+        .my_highlight {
+            background-color: yellow;
+            color: red;
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Instruction -->
+    <h1> Instruction </h1>
+    <ul>
+        <li>Please enter a story for each photo.</li>
+        <li>Please write <span class="my_highlight">at least 10 words</span> for each photo.</li>
+    </ul>
+
+
+    <!-- Image & Input Text Block -->
+    <form id="mturk_form" name="mturk_form">
+        <div>
+            <img src="seq1.jpg"></img>
+            <textarea rows="15" cols="50" name="sentence1" required></textarea>
+        </div>
+
+        <div>
+            <img src="seq2.jpg"></img>
+            <textarea rows="15" cols="50" name="sentence2" required></textarea>
+        </div>
+
+        <div>
+            <img src="seq3.jpg"></img>
+            <textarea rows="15" cols="50" name="sentence3" required></textarea>
+        </div>
+
+        <div>
+            <img src="seq4.jpg"></img>
+            <textarea rows="15" cols="50" name="sentence4" required></textarea>
+        </div>
+
+        <div>
+            <img src="seq5.jpg"></img>
+            <textarea rows="15" cols="50" name="sentence5" required></textarea>
+        </div>
+
+        <input type="submit">
+    </form>
+
+
+</body>
+
+</html>
